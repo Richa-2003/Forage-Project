@@ -1,0 +1,151 @@
+
+body{
+    background-image: white;
+}
+
+input:focus{
+    outline: none;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+.header-outer-container {
+    width: calc(100vw - 40px);
+    border-bottom: solid 1px #DDDDDD;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 109px;
+}
+
+.header-logo{
+    height: 68px;
+    image-rendering: -moz-crisp-edges;         
+    image-rendering:   -o-crisp-edges;         
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+.brand-logo{
+    height: 100%;
+}
+
+.sign-in-btn{
+    color: #fff;
+    margin: 10px 0;
+    background-color: rgb(10, 109, 215);
+    border-radius: 0;
+    font-weight: 400;
+    font-size: 1.125em;
+    text-decoration: none;
+    padding: 8px 20px;
+    height: 0.8cm;
+    width: 3cm;
+    text-align: center;
+    border: none;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.site-footer{
+    padding: 45px 20px 50px 20px;
+    width: calc(100vw - 40px);
+    background-color: black;
+}
+
+.footer-link-cont{
+    color: white;
+    font-family: sans-serif;
+}
+
+.footer-link{
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.main-page{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    min-height: calc(100vh - 373px);
+}
+
+.main-page-header{
+    font-family: sans-serif;
+    color: #393939;
+    max-width: 80%;
+    text-align: center;
+}
+
+.main-page-description{
+    font-family: sans-serif;
+    color: #393939;
+    max-width: 80%;
+    text-align: center;
+}
+
+.seperation-line{
+    border: 1px solid #2e3d4e17;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 80%;
+    max-width: 500px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.container{
+    width: 80%;
+    max-width: 500px;
+   align-items: center;
+}
+
+.box{
+    width: 80%;
+    height: 20px;
+    max-width: 500px;
+    margin-left: 45px;
+    border-radius: 0.3rem;
+    border-color: black;
+}
+
+label{
+    margin-left: 45px;
+}
+
+button{
+    width: 80%;
+    max-width: 500px;
+    margin-left: 45px;
+    margin-top: 20px;
+    height: 26px;
+    color: white;
+    border-radius: 0.3rem;
+    background-color:rgb(10, 109, 215);
+}
+
+button:hover{
+    background-color: blue;
+}
+
+ select.box{
+    width: 80%;
+    max-width: 500px;
+    height: 25px;
+    border-color: black;
+    border-radius: 0.3rem;
+    
+ }
+
+
+
